@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "合成",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

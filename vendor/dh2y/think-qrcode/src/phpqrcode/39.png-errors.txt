@@ -1,0 +1,1 @@
+2021-10-19 18:22:55: imagepng(uploads/qrcode/39.png): failed to open stream: Permission denied2021-10-19 18:24:44: imagepng(uploads/qrcode/39.png): failed to open stream: Permission denied

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "查看券码",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tki-qrcode": "/components/tki-qrcode/tki-qrcode"
+  }
+}

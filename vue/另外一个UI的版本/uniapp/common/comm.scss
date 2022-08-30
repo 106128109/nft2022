@@ -1,0 +1,213 @@
+// 主要字体
+.mcolor1{color:$m-color1}
+.red{color:$m-color2}
+.mcolor3{color:$m-color3}
+//背景颜色
+.bgwhite{
+	background:#fff;
+}
+.autoh{
+	margin: auto 0;
+}
+.autor{
+	margin: 0 0 0 auto;
+}
+// 边框
+.bb{
+   border-bottom: 2rpx  solid #2B2A2A;	
+}
+.bl{
+   border-left: 2rpx  solid #F5F5F5;	
+}
+.ball{
+   border: 2rpx  solid #eee;	
+}
+// 背景按钮渐变颜色
+.bgground{
+	border-radius: 40rpx;
+	text-align: center;
+	background:linear-gradient(90deg, #FF9B4C 0%, #F66E23 100%)!important;
+}
+.bgg{
+	background:$m-color2 !important;
+}
+/* flex */
+.textcenter{
+	text-align: center;
+}
+.textend{
+	text-align: end;
+}
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex-b{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.flex1{
+	flex: 1;
+	align-items: center;
+}
+.flex_l{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.flex_r{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.flex{
+	display: flex;
+}
+.flex-start{
+	justify-content: flex-start;
+}
+.flex-end{
+	justify-content: flex-end;
+}
+.flex-center{
+	justify-content: center;
+}
+.flex-around{
+	justify-content: space-around;
+}
+.flex-between{
+	justify-content: space-between;
+}
+.flex-top{
+	align-items: flex-start;
+}
+.flex-middle{
+	align-items: center;
+}
+.flex-bottom{
+	align-items: flex-end;
+}
+.flex-column{
+	flex-direction: column;
+}
+.flex-row{
+	flex-direction: row;
+}
+.flex-wrap{
+	flex-wrap: wrap;
+}
+
+/* 边框 */
+
+/* 全屏 */
+.vw100 {
+  width:100vw !important;
+}
+.vh100 {
+  height:100vh !important;
+}
+.min100 {
+  min-height:100vh !important;
+}
+.h100 {
+  height:100% !important;
+}
+.w100 {
+  width:100% !important;
+}
+/* 其他 */
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
+.fixed{
+	position: fixed;
+}
+.fixed-bottom{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.block{
+	display: block;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.autowrap {
+  word-wrap: break-word;
+  word-break: normal;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.minbold{
+	font-weight: 500;
+}
+.bold {
+  font-weight: 600;
+}
+.nonebold{
+	font-weight: normal;
+}
+.over-hidden {
+  overflow: hidden;
+}
+// 常用字体颜色变量 黑到灰
+.color1{color:#111}
+.color2{color:#222}
+.color3{color:#333}
+.color4{color:#444}
+.color5{color:#555}
+.color6{color:#666}
+.color7{color:#777}
+.color8{color:#888}
+.color9{color:#999}
+.white{color:#fff}
+.colora{color:#aaa}
+.colorC6{color: #C4C6C6;}
+// padding margin
+@for $value from 1 through 100{
+  .pd-#{$value}, .ptb-#{$value}, .pt-#{$value} { padding-top: $value*1rpx; }
+  .pd-#{$value}, .ptb-#{$value}, .pb-#{$value} { padding-bottom: $value*1rpx; }
+  .pd-#{$value}, .plr-#{$value}, .pl-#{$value} { padding-left: $value*1rpx; }
+  .pd-#{$value}, .plr-#{$value}, .pr-#{$value} { padding-right: $value*1rpx; }
+  .mg-#{$value}, .mtb-#{$value}, .mt-#{$value} { margin-top: $value*1rpx; }
+  .mg-#{$value}, .mtb-#{$value}, .mb-#{$value} { margin-bottom: $value*1rpx; }
+  .mg-#{$value}, .mlr-#{$value}, .ml-#{$value} { margin-left: $value*1rpx; }
+  .mg-#{$value}, .mlr-#{$value}, .mr-#{$value} { margin-right: $value*1rpx; }
+}
+
+@for $value from 10 through 150{
+  .height#{$value} { height: $value*1rpx; }
+  .width#{$value} { width: $value*1rpx; }
+  .lineh#{$value}  {line-height: $value*1rpx; }
+}
+// size
+@for $value from 20 through 60{
+  .size-#{$value}{ font-size: $value*1rpx; }
+}
+
+// radius
+.radiusy{
+  border-radius: 50%;
+}
+@for $value from 5 through 50{
+  .radius-#{$value}{ border-radius: $value*1rpx; }
+}
+

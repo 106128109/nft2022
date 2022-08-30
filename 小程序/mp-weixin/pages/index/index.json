@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "backgroundColor": "#ffffff",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-notice-bar": "/node-modules/uview-ui/components/u-notice-bar/u-notice-bar",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "uni-footer": "/components/uni-footer/uni-footer",
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup"
+  }
+}

@@ -1,0 +1,438 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#ffffff",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/webView",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"backgroundColor": "#23272C"
+			}
+		},
+		{
+			"path": "pages/index/goodsDetail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#ffffff",
+						"titleColor": "#000000"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/secondGoodsDetail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#ffffff",
+						"titleColor": "#000000"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/secondHand",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "市场",
+				"enablePullDownRefresh": true
+			}
+		},{
+			"path": "pages/index/txtdetail",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/index/orderMakeSure",
+			"style": {
+				"navigationBarTitleText": "提交订单",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/order/orderList",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/order/orderPayMoney",
+			"style": {
+				"navigationBarTitleText": "订单支付",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#23272C",
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+		    "path" : "pages/my/art",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的艺术品",
+		        "enablePullDownRefresh": true
+		    }
+		    
+		},{
+		    "path" : "pages/notice/noticeDetail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "公告详情",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/notice/notice",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "公告",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/my/team",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的团队",
+		        "enablePullDownRefresh": true
+		    }
+		    
+		},
+		{
+		    "path" : "pages/my/sell",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的售卖",
+		        "enablePullDownRefresh": true
+		    }
+		    
+		},
+		{
+		    "path" : "pages/my/service",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "客服",
+		        "enablePullDownRefresh": true
+		    }
+		    
+		},
+		{
+			"path": "pages/my/authentication",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/myInfo",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": false
+			}
+		},{
+			"path": "pages/my/share",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"backgroundColor": "#23272C",
+						"titleColor": "#FFFFFF"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/my/mySet",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/SetNickname",
+			"style": {
+				"navigationBarTitleText": "修改昵称",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/myCollection",
+			"style": {
+				"navigationBarTitleText": "收款信息",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/couponList",
+			"style": {
+				"navigationBarTitleText": "优惠券",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/couponDetail",
+			"style": {
+				"navigationBarTitleText": "查看券码",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/couponCheck",
+			"style": {
+				"navigationBarTitleText": "区块链信息查询",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/SetLoginPsd",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/Withdrawal",
+			"style": {
+				"navigationBarTitleText": "提现",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/WithdrawRecords",
+			"style": {
+				"navigationBarTitleText": "提现记录",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/topUp",
+			"style": {
+				"navigationBarTitleText": "充值",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/topUpRecord",
+			"style": {
+				"navigationBarTitleText": "充值记录",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/record",
+			"style": {
+				"navigationBarTitleText": "转赠记录",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/user/myArtDetail",
+			"style": {
+				"navigationBarTitleText": "我的艺术品详情",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"backgroundColor": "#23272C",
+						"titleColor": "#FFFFFF"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/user/mySaleDetail",
+			"style": {
+				"navigationBarTitleText": "我的售卖",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"backgroundColor": "#23272C",
+						"titleColor": "#FFFFFF"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/reg",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/findPsd",
+			"style": {
+				"navigationBarTitleText": "找回密码",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/findPsd2",
+			"style": {
+				"navigationBarTitleText": "找回密码",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/findPsd3",
+			"style": {
+				"navigationBarTitleText": "找回密码",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/bindPhone",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/privacyPolicy",
+			"style": {
+				"navigationBarTitleText": "用户协议",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/manghe/index",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#ffffff",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/manghe/goodsMangheDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"backgroundColor": "#23272C",
+						"titleColor": "#FFFFFF"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/manghe/openMangheDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"backgroundColor": "#23272C",
+						"titleColor": "#FFFFFF"
+					}
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/manghe/manghelist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的盲盒",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+		,{
+		    "path" : "pages/hecheng/hechenglist",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "合成",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/hecheng/hechangDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "合成",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/hecheng/hechenegRule",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "合成规则",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/ruzhu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "创作者中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor":"#ffffff",
+		"backgroundColor": "#ffffff"
+	},
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue",
+		"^(?!z-paging-refresh|z-paging-load-more)z-paging(.*)": "z-paging/components/z-paging$1/z-paging$1.vue"
+	}
+	// "tabBar": {
+	// 	"color": "#777777",
+	// 	"selectedColor": "#AE3523",
+	// 	"borderStyle": "white",
+	// 	"backgroundColor": "#FFFFFF",
+	// 	"list": [{
+	// 			"pagePath": "pages/index/index",
+	// 			"iconPath": "static/img/footer/index.png",
+	// 			"selectedIconPath": "static/img/footer/index1.png",
+	// 			"text": "首页"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/my/my",
+	// 			"iconPath": "static/img/footer/my.png",
+	// 			"selectedIconPath": "static/img/footer/my1.png",
+	// 			"text": "我的"
+	// 		}
+	// 	]
+	// }
+}
