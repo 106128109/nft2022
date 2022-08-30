@@ -1,1 +1,0 @@
-<view class="content data-v-55fa0aa6"><web-view src="{{url}}" update-title="{{flag}}" class="data-v-55fa0aa6"></web-view></view>

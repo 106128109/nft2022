@@ -1,9 +1,0 @@
-{
-  "navigationStyle": "custom",
-  "navigationBarTitleText": "市场",
-  "enablePullDownRefresh": true,
-  "usingComponents": {
-    "uni-load-more": "/components/uni-load-more/uni-load-more",
-    "uni-footer": "/components/uni-footer/uni-footer"
-  }
-}

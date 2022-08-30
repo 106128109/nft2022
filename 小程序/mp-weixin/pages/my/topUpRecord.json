@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "充值记录",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "uni-load-more": "/components/uni-load-more/uni-load-more"
-  }
-}

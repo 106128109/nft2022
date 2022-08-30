@@ -1,1 +1,0 @@
-<view class=" plr-30 data-v-66e80676"><image class="img data-v-66e80676" src="{{img}}" mode="aspectFill"></image><view class="white size-28 data-v-66e80676"><u-parse vue-id="c8b0dfea-1" content="{{con}}" class="data-v-66e80676" bind:__l="__l"></u-parse></view></view>

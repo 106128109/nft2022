@@ -1,3 +1,0 @@
-安卓 com.yuansuxiangxian.www  nft  123456
-
-ios com.yuansuxiangxian.www  123456

@@ -1,1 +1,0 @@
-<view><view class="notice-containter"><view class="notice-title">{{noticeContent.title}}</view><view class="notice-time">{{noticeContent.create_time}}</view><view class="notice-content"><rich-text nodes="{{$root.g0}}"></rich-text></view></view></view>
